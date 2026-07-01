@@ -211,7 +211,7 @@
   .cta-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:24px;}
 
   .qr-block{
-    display:flex;align-items:center;gap:24px;background:var(--surface);border:1px solid var(--line);
+    display:flex;align-items:center;justify-content:center;background:var(--surface);border:1px solid var(--line);
     border-radius:14px;padding:24px;margin-top:24px;flex-wrap:wrap;
     box-shadow:0 20px 40px -28px rgba(0,0,0,0.5);
   }
@@ -540,10 +540,6 @@ void loop() {
     <div class="qr-block">
       <div class="qr-box">
         <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://DEIN-USERNAME.github.io/smart-muelleimer/" alt="QR-Code zur Projektseite">
-      </div>
-      <div class="qr-text">
-        <div class="t">QR-Code für die Messe</div>
-        <p class="d">Zeigt auf diese Seite. Sobald die Seite live ist, kann der QR-Code ausgedruckt neben dem Eimer stehen.</p>
       </div>
     </div>
   </div>
